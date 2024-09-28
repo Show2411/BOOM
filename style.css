@@ -1,0 +1,510 @@
+*{      margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{width:100%;
+height:100vh;
+background-image:Url('https://images.squarespace-cdn.com/content/v1/5ce470bcbc4af100017f26ef/1558728694068-CMZ9412KTJB5BJ3LURZ6/autotunes-2.jpg');
+margin-top: 0;
+padding: 0;
+background-repeat:no-repeat;
+/* background-size:100% 100%; */
+background-position: center;
+background-size: cover;
+
+}
+
+nav{
+/* background-color: brown; */
+position:fixed;
+width: 100%;
+height: 20mm;  
+display: flex;
+flex-direction: row;
+align-items: center;
+transition: 0.5s;
+}
+
+nav.active{
+background-color:rgb(41, 41, 42);
+border-bottom:solid 1px #858785;
+}
+
+a{text-decoration: none;
+color: white;
+margin-left: 1%;
+margin-right: 1%;
+font-size: 20px;
+font-weight: lighter;
+}
+a:hover{
+border-bottom: solid 1px;
+}
+p{font-size: 2rem;
+color: #fff;
+font-weight: lighter;
+position: absolute;
+left: 30px;
+}
+.links{
+position: absolute;
+right: 10px;
+width: 15rem;
+display: flex;
+justify-content: center;
+}
+
+.openbtn{
+font-size: 25px;
+cursor: pointer;
+color: white;
+padding: 10px 15px;
+border: none;
+display: none;
+position: absolute;
+right: 10px;
+}
+
+.openbtn:hover{background-color: #444;}
+
+.container2{width:100%;
+height:900px;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;}
+
+.box{width:40%;
+height:600px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+margin-right:2%;
+}
+
+h1{font-size:280%;
+font-weight: lighter;}
+
+h2{font-size:120%;
+font-weight: lighter;}
+
+button{
+width:32%;
+height:10%;
+font-size:100%;
+color:gray; 
+background-color:white;
+font-weight:lighter;
+margin-right:65%;
+margin-top:10%;
+border: 2px solid #858785; /*grey*/
+cursor: pointer;
+}
+
+button:hover{background-color:gray;
+color:white;}
+
+.box1{width:47%;
+height:600px;
+background-image:Url('record.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+margin-left:2%;
+}
+
+.container3{width:100%;
+background-color:rgb(41, 41, 42);
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;}
+
+.pit{width:100%;
+padding-top: 10px;
+padding-bottom: 40px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom: 30px;}
+
+.bit{font-size:300%;
+color:#fff;
+font-weight: lighter;}
+
+.contain{width:100%;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;}
+
+.box2{width: 50%;
+height:30%;
+margin-left:2%;
+margin-right:2%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;}
+
+.ball{width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+
+
+.dot:hover{
+cursor: pointer;
+}
+
+
+h3{color:white;
+font-size:100%;
+font-weight: lighter;}
+
+h4{color:white;
+font-size:250%;
+font-weight: lighter;
+text-align: center;}
+
+h5{color:white;
+font-size:120%;
+margin-top:2%;
+font-weight: lighter;
+}
+
+
+
+.container4{width:100%;
+height:200px;
+display:flex;
+align-items:center;
+justify-content:center;}
+
+b{font-size:300%;
+margin-top: 10%;
+font-weight: lighter;}
+
+.container5{width:100%;
+height:1100px;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;}
+
+.box3{width:35%;
+height:900px;
+margin-left:2%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;}
+
+.pot{width:100%;
+height:430px;
+background-image:Url('poster-3.jpg');
+margin-bottom:5%;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+.pot1{width:100%;
+height:430px;
+background-image:Url('record.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+margin-top:5%; }
+
+
+.box4{width:55%;
+height:900px;
+background-image:Url('t-shirt-4.jpg');
+margin-left:2%;
+margin-right:2%;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+.container6{width:100%;
+background-color:rgb(52, 51, 51);
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+}
+
+
+
+.box5{width:45%;
+height:800px;
+margin-left:2%;
+margin-right:2%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;}
+
+.Press{width:100%;
+padding-top: 10px;
+padding-bottom: 20px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.Press1{font-size:300%;
+color:black;
+font-weight: lighter;}
+
+
+.box6{width:45%;
+height:800px;
+margin-left:2%;
+margin-right:2%;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}   
+.pot2{width:100%;
+height:220px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+
+.line{color:white;
+font-size:90%;
+font-weight: lighter;}
+
+.line1{color:white;
+font-size:170%;
+margin-top:2%;
+font-weight: lighter;}
+
+.line2{color:white;
+font-size:90%;
+margin-top:2%;
+font-weight: lighter;}
+
+.line3{
+text-decoration: none;
+color: rgb(170, 166, 166);
+font-weight: lighter;
+margin-top: 2%;
+width: fit-content;
+font-size: 15px;
+}
+
+footer{width:100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+footer span{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+footer span .insta i{
+margin-inline-start: 0px;
+margin-inline-end: 10px;
+font-size: larger;
+color: #111;
+}
+footer span i{
+font-size: 15px;
+margin-inline-start: 5px;
+margin-inline-end: 5px;
+}
+footer span i a{
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-size: 15px;
+color: tomato;
+}
+.scrollTop{
+position: fixed;
+bottom: 20px;
+right: 20px;
+height: 50px;
+width: 50px;
+background: #D4D4D6;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+border-radius: 50%;
+background-size: 40px;
+cursor: pointer;
+z-index: 100000;
+visibility: hidden;
+opacity: 0;
+transition: 0.5s;
+font-weight: bolder;
+font-size: x-large;
+}
+.scrollTop.active{
+visibility: visible;
+opacity: 0.7;
+}
+.scrollTop.active:hover{
+opacity: 1;
+}
+
+@media screen and (max-height: 450px){
+.overlay a{font-size: 20px;}
+.overlay .closebtn{font-size: 40px;
+top: 15px;
+right: 35px;}
+}
+
+@media screen and (max-width:340px)
+{
+button{
+width:max-content;
+height:max-content;
+padding: 20px;
+margin-right:0%;
+margin-top:10%;
+margin-bottom: 10%;
+}
+.bit{
+text-align: center;}
+
+}            
+@media screen and (max-width:800px)
+{            
+p{font-size: 2rem;
+color: #fff;
+}
+.links{
+display: none;
+}     
+.overlay{height: 0%;
+width: 100%;
+position:fixed;
+z-index: 1;
+left: 0;
+right: 0;
+top: 0;
+background-color: black;
+background-color: (0,0,0,0,9);
+overflow: hidden;
+transition: 0.5s;}
+
+.overlay-content{position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay a{padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block;
+transition: 0.3s;}
+
+.overlay .bow{font-size: 2rem;
+color: #fff;
+top: 9px;
+left: 20px;
+position: absolute;
+}
+
+.overlay a:hover, .overlay a:focus{
+color: #f1f1f1;
+border-bottom: none;
+}
+
+.closebtn{position: absolute;
+right: 10px;
+top: 5px;
+}
+
+.openbtn{
+display: block;
+}
+.container2{
+flex-direction: column;
+}
+.box{
+width:100%;
+margin-left: 0px;
+margin-right: 0px;
+}
+h1,h2{
+padding: 10px;
+}
+
+
+.box1{
+margin-left: 0px;
+margin-right: 0px;
+width: 100%;
+}
+.contain{
+flex-direction: column;
+}
+.box2{height: 300px;
+margin-top: 10%;}
+
+h3{font-size: 1.5rem;
+}
+h5{font-size:1.5rem;
+}
+.pit{padding-top: 30px;
+margin-bottom: 0px;}
+
+.container5{
+flex-direction:column;
+}
+
+.box3{width:100%;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.box4{
+width:100%;
+margin-left: 0px;
+margin-right: 0px;
+}
+.pot1{
+margin-bottom: 10%;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+
+.container6{
+height: 1500px;
+flex-direction: column;
+}    
+.box5,.box6{
+width: 100%;
+}
+.line,.line1,.line2,.line3{
+padding-left: 10px;
+}
+
+.line3{
+font-size: 1rem;
+}
+.done{
+font-size: 1rem;
+}  
+
+}  
